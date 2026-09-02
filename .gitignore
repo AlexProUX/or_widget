@@ -4,4 +4,5 @@
 !/.gitignore
 !/README.md
 !/assets/
+/assets/*
 !/assets/openrouter-widget.png
