@@ -1,8 +1,8 @@
 <div align="center">
 
-# OpenRouter Widget for macOS
+# Spend less on OpenRouter models
 
-Browse OpenRouter models, compare prices, and copy ready-to-use model IDs without leaving the menu bar.
+OpenRouter Widget for macOS tracks prices that change hour by hour, catches discounts, and helps you switch before extra spend adds up.
 
 [![Download latest version](https://img.shields.io/badge/Download-latest%20version-F59E0B?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/AlexProUX/or_widget/releases/latest/download/OpenRouterWidget.app.zip)
 
@@ -15,16 +15,19 @@ Browse OpenRouter models, compare prices, and copy ready-to-use model IDs withou
 
 </div>
 
-## What it does
+## Why it exists
 
-OpenRouter Widget is a native, lightweight macOS menu-bar app for quickly exploring the OpenRouter catalog.
+OpenRouter pricing is not something you can check once and forget. A model that fits your budget today can cost more tomorrow, while a cheaper alternative or a new discount appears elsewhere.
 
-- **Three focused views:** Discounts, Top weekly, and New.
-- **Useful sorting:** sort each tab by the criteria that matter there, including name, price, discount, rating, or release date.
-- **Prices at a glance:** see context size and input/output token prices in a compact card.
-- **One-click model IDs:** click anywhere on a model card to copy an identifier such as `openrouter/z-ai/glm-5.3-flash`.
-- **Resilient data:** the widget keeps the last known good list when a source temporarily fails.
-- **Built-in updates:** new releases are detected automatically and installed from GitHub.
+OpenRouter Widget keeps current context sizes, input/output prices, and discounts in the macOS menu bar. It helps you spot a better offer quickly, copy its model ID, and switch before unnecessary API costs accumulate.
+
+- **Stay on top of price changes:** the widget refreshes when opened and every 15 minutes.
+- **Find better offers:** compare Discounts, Top weekly, and New from the menu bar.
+- **Read the real cost quickly:** see context size and input/output token prices in every model card.
+- **Sort for savings:** order models by name, price, discount, rating, or release date.
+- **Switch in one click:** copy an identifier such as `openrouter/z-ai/glm-5.3-flash` directly into your configuration or agent instructions.
+- **Keep useful data available:** the widget preserves the last known good list when a source temporarily fails.
+- **Stay current:** new widget releases are detected automatically and installed from GitHub.
 
 The app lives entirely in the menu bar and does not add an icon to the Dock.
 
