@@ -22,9 +22,10 @@ OpenRouter pricing is not something you can check once and forget. A model that 
 OpenRouter Widget keeps current context sizes, input/output prices, and discounts in the macOS menu bar. It helps you spot a better offer quickly, copy its model ID, and switch before unnecessary API costs accumulate.
 
 - **Stay on top of price changes:** the widget refreshes when opened and every 15 minutes.
-- **Find better offers:** compare Discounts, Top weekly, and New from the menu bar.
+- **Find better offers:** compare discounts in **%**, popular models in **Top weekly**, and releases in **New**.
+- **Keep favorites close:** click a star to save a model in **Fav**. Favorites survive restarts; removing one asks for confirmation.
 - **Read the real cost quickly:** see context size and input/output token prices in every model card.
-- **Sort for savings:** order models by name, price, discount, rating, or release date.
+- **Sort for savings:** Price sorts by output-token cost, lowest first, in every tab. Fav also offers Name, Date, and Rating, with Date selected by default.
 - **Switch in one click:** copy an identifier such as `openrouter/z-ai/glm-5.3-flash` directly into your configuration or agent instructions.
 - **Keep useful data available:** the widget preserves the last known good list when a source temporarily fails.
 - **Stay current:** new widget releases are detected automatically and installed from GitHub.
@@ -47,7 +48,8 @@ The app lives entirely in the menu bar and does not add an icon to the Dock.
 ## Using the widget
 
 - **Left-click** the OpenRouter menu-bar icon to open or close the widget.
-- Choose **Discounts**, **Top weekly**, or **New**, then use the sort menu to reorder the current list.
+- Choose **%**, **Top weekly**, **New**, or **Fav**, then use the sort menu to reorder the current list.
+- Click an outline star to add a favorite. A yellow star opens **Remove / Cancel** confirmation.
 - Click any model card to copy its ready-to-paste OpenRouter identifier.
 - **Right-click** the menu-bar icon to see the installed version, install an available update, or quit.
 - Use the refresh button to request fresh model data at any time.
@@ -62,6 +64,7 @@ You can also browse or download every published build from the [Releases page](h
 
 | Version | Highlights |
 | --- | --- |
+| [0.2.0](https://github.com/AlexProUX/or_widget/releases/tag/v0.2.0) | Added persistent favorites and removal confirmation; renamed Discounts to %; Price now sorts by output-token cost in every tab. |
 | [0.1.2](https://github.com/AlexProUX/or_widget/releases/tag/v0.1.2) | Removed focus-ring artifacts across the widget and refined the Update control. |
 | [0.1.1](https://github.com/AlexProUX/or_widget/releases/tag/v0.1.1) | Initial focus-state hotfix for the tab control. |
 | 0.1.0 | Initial packaged preview with model tabs, sorting, clipboard copy, caching, and in-app updates. |
